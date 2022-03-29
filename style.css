@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -68,3 +69,66 @@ header{
     padding: 50px;   
 }
  
+=======
+/* Importação (Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+ 
+/*Css Reset*/
+*{
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+body{
+    background-color: rgb(54, 35, 35);
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+}
+
+.Container{
+    margin: 0 auto;
+    background-color: #07f007;
+
+}
+
+/* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+ 
+/* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media(min-width:576px){
+    body{
+        background-color: #9c2b2b;
+    } 
+    .Container{
+        max-width: 540px; 
+    }
+}
+/* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media(min-width:768px){
+    body{
+        background-color: #7fc240;
+    }
+    .Container{
+        max-width: 720px; 
+    }  
+      
+}
+/* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media(min-width:992px){
+    body{
+        background-color: #2f17b8;
+    } 
+    .Container{
+        max-width: 960px; 
+    }   
+}
+/* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media(min-width:1200px){
+    body{
+        background-color: #c3eb12;
+    } 
+    .Container{
+        max-width: 1140px; 
+    }   
+}
+>>>>>>> e5edc58a905909c890383acca999d4bd984f5126
